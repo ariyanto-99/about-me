@@ -1,0 +1,180 @@
+body{
+  margin: 0;
+  text-align: center; /* to center everything in the center, will center everything inside */
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 0 7px 7px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: #9D9D9D;
+}
+
+#about {
+  top: 80px;
+  background-color: #734488;
+}
+
+#works {
+  top: 140px;
+  background-color: #66BFBF;
+}
+
+#contact {
+  top: 200px;
+  background-color: #F0AE2C;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size: 5rem; /* to make it dynamic root em, to make it not affected with its parent: body*/
+  margin: 0 auto 0 auto; /*this is to center everything giving margin top right bottom left*/
+}
+
+.matahari {
+  position: relative;
+  margin: 0 auto 0 100px;
+}
+
+.tennis {
+  position: relative;
+  margin: 0 100px 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: bold;
+  margin: 20px auto 0 auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+}
+
+.full {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #fefbf3;
+  position: relative; /* this will affect the position of the clouds */
+  padding-top: 60px;
+}
+
+.middle-container {
+  background-color: #F8F0DF;
+
+}
+
+.bottom-container {
+  background-color: #9D9D9D;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-link {
+  color: #FEFBF3;
+}
+
+.bottom-cloud {
+  position: relative;
+  right: 100px;
+  bottom: 350px; /* giving margin bottom from the top container (parent) so pushing up */
+}
+
+.top-cloud {
+  position: relative;
+  left: 300px;
+  top: 10px; /* giving margin top from the top container(parent) and so pushing down */
+}
+
+.profile {
+  width: 50%;
+  margin: 0 auto 100px auto;
+  line-height: 2;
+}
+
+.hello-img {
+  padding-top: 50px;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto 100px auto;
+  line-height: 2;
+}
+
+.contact-me {
+  position: relative;
+  width: 50%;
+  margin: 0px auto 0 auto;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.contact-img {
+  padding-top: 20px;
+}
+
+.btn {
+  width: 50%;
+  margin: 100px auto 0 auto;
+  line-height: 2;
+}
+
+.contact-text {
+  position: relative;
+  top: 0px;
+}
+
+.img-contact {
+  position: relative;
+  top: 0px;
+}
+
+.table-contact {
+  line-height: 2;
+}
+
+.body-contact {
+  background-color: #fefbf3;
+}
+
+.body-about {
+  background-color: #F8F0DF;
+}
+
+.body-works {
+  background-color: #F8F0DF;
+}
